@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Home page </title>
+    <link rel="stylesheet" href="/Static/Css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Css/style.css') }}">
+
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <div class="logo"> GARBAGE CLASSIFICATION</div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="{{ url_for('classify') }}">Prediction</a></li>
+                <li><a href="{{ url_for('team') }}">Team</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main"> 
+
+        <div class="web-title">
+            <h2> Intelligent Garbage Classification Using Deep Learning</h2>
+            <p> Welcome to our website dedicated to intelligent garbage classification!</p> 
+
+            <p>Waste management is essential in today’s society. Due to an increase in population, the generation of waste is getting doubled day by day. Moreover, the increase in waste is affecting the lives of many people.For instance, people living in slums are very close to the waste disposal area. Therefore there are prone to various diseases. Hence, putting their lives in danger. In order to maintain a healthy life, proper hygiene and sanitation are necessary. Consequently, it is only possible with proper waste management.</p>
+            <p>Waste management is the overall process of collection, transportation, treatment and discarding of waste products, sewage and garbage. It also includes other legal, monitoring, recycling and regulating activities.There are many forms of waste such as solid, gas or liquid and each has different process of disposal and management. Waste management manages different types of waste created by industries, household, commercial activities or natural waste. Large segment of waste management deals with municipal solid waste i.e. the waste created by industries, housing and commercial establishments. </p>
+
+               <p> We believe that proper waste management is crucial for a sustainable future, 
+                and our technology makes it easier than ever to sort your trash efficiently. 
+                Our intelligent garbage classification system uses advanced algorithms and 
+                techniques to identify and sort waste automatically. Say goodbye to confusion 
+                over what goes in which bin and hello to a cleaner environment. Join us in our 
+                mission to create a better world through responsible waste disposal.</p>
+        </div>
+
+        
+    </main>
+
+    <footer></footer>
+</body>
+</html>
